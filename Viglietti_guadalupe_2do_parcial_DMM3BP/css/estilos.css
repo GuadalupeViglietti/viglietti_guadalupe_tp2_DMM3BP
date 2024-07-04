@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#info,
+#pastillas,
+#calendario,
+#recetas,
+#contacto,
+#informacion,
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.botonera {
+    margin: 20px 0px;
+}
+
+nav li {
+    padding: 0px 10px;
+}
+
+nav .nav-link:hover {
+    font-weight: 500;
+    color: #0a81ad !important;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
+
+#logo {
+    width: 104px;
+    height: 90px;
+    background: url("../imagenes/logo.svg") no-repeat center;
+    font-size: 0;
+}
+
+
+
+
+
+
+
+
+
+#info img {
+    padding: 20px;
+}
+
+#info h2 {
+    padding-bottom: 30px;
+}
+
+#info button {
+    border: 0px;
+    background-color: #5ab3d3;
+    color: #aaff2c;
+}
+
+#info button:hover {
+    border: 0px;
+    background-color: rgb(235, 235, 235);
+    color: #0a81ad;
+}
+
+.imagen1 {
+    background-color: rgb(249, 255, 241);
+    display: none;
+    transition: background-color 0.3s;
+}
+
+.card:hover .imagen1 {
+    display: block;
+}
+
+.imagen1 p {
+    color: #2b6e7c;
+}
+
+.imagen1:hover {
+    background-color: #e1e1e1;
+}
+
+
+
+
+
+
+
+#pastillas h3 {
+    color: #646464;
+}
+
+#pastillas p {
+    text-indent: 5px;
+    font-size: 12px;
+}
+
+#pastillas .card:hover {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #bfff5e;
+}
+
+
+
+
+
+.scroll {
+    overflow-x: scroll;
+}
+
+#acceder {
+    border: 0px;
+    color: #0a81ad;
+    background-color: #bfff5e;
+}
+
+#acceder:hover {
+    border: 0px;
+    color: #bfff5e;
+    background-color: #0a81ad;
+}
+
+#nueva {
+    border: 0px;
+    color: #0a81ad;
+    background-color: #bfff5e;
+}
+
+#nueva:hover {
+    border: 0px;
+    color: #bfff5e;
+    background-color: #0a81ad;
+}
+
+#calendario {
+    background-color: #ecc8d9;
+}
+
+#contenido .card {
+    min-width: 200px;
+}
+
+#calendario .card-body {
+    background-color: #ffffff;
+}
+
+.card-header {
+    color: #0a81ad;
+}
+
+.lunes .card-header {
+    background-color: rgb(223, 233, 255);
+}
+
+.martes .card-header {
+    background-color: rgb(255, 219, 231);
+}
+
+
+.miercoles .card-header {
+    background-color: rgb(231, 255, 231);
+}
+
+
+.jueves .card-header {
+    background-color: rgb(255, 252, 230);
+}
+
+.viernes .card-header {
+    background-color: rgb(228, 255, 242);
+}
+
+.sabado .card-header {
+    background-color: rgb(223, 235, 255);
+}
+
+.domingo .card-header {
+    background-color: rgb(241, 222, 255);
+}
+
+#calendario .eliminar {
+    background-color: #fff1f6;
+    color: #494949;
+    border: 0px;
+}
+
+#calendario .eliminar:hover {
+    background-color: #ffbcd3;
+    color: #ffffff;
+    border: 0px;
+}
+
+#calendario .modificar {
+    background-color: #cfffcb;
+    color: #494949;
+    border: 0px;
+}
+
+#calendario .modificar:hover {
+    background-color: #91d68b;
+    color: #ffffff;
+    border: 0px;
+}
+
+.oculto {
+    display: none !important;
+}
+
+
+
+
+
+
+
+#recetas {
+    background-color: #0a81ad;
+    padding: 40px 0;
+}
+
+#recetas h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#recetas button {
+    border: 0;
+    padding: 15px 30px;
+    background-color: #bfff5e;
+    color: #0a81ad;
+    margin: 20px 0;
+}
+
+#recetas button:hover {
+    background-color: #ecc8d9;
+}
+
+#recetasContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cReceta {
+    background-color: #e6f8ff;
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.cReceta img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+#contacto {
+    background-color: #bfff5e;
+    color: #0a81ad;
+    padding: 40px 0px;
+}
+
+#contacto form{
+    background-color: #ffffff;
+    color: #0a81ad;
+    padding: 40px 0px;
+}
+
+#contacto button {
+    border: 0px;
+    color: #0a81ad;
+    background-color: #ecc8d9;
+}
+
+#contacto button:hover {
+    border: 0px;
+    color: #ecc8d9;
+    background-color: #0a81ad;
+}
+
+#contacto .enviar {
+    color: #ecc8d9;
+    background-color: #75bbd4;
+}
+
+#contacto .enviar:hover {
+    color: #ffffff;
+    background-color: #bfff5e;
+}
+
+#contacto .cerrar {
+    color: #ffeef4;
+    background-color: #f5c4c4;
+}
+
+#contacto .cerrar:hover {
+    color: #ff0059;
+    background-color: #eeeeee;
+}
+
+
+
+
+
+#informacion h3 {
+    color: #616161;
+    padding: 5px;
+}
+
+#informacion strong {
+    font-weight: 600;
+    color: #0a81ad;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #c6c6c6;
+}
+
+.infoAlumna {
+    color: white;
+    background-color: #ffa6a6;
+}
+
+.infoAlumna:hover {
+    color: #75bbd4;
+    background-color: #c1ff65;
+}
